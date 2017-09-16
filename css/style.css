@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  margin: auto;
+  width: 100%;
+}
+
+body{
+  font-family: Montserrat;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+img{
+  width: 40px;
+  height: 40px;
+}
+
+.top_header{
+  padding-top: 20px;
+}
+
+header ul{
+  margin: 0;
+}
+
+header li{
+  display: inline;
+  padding-right: 30px;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.active{
+  color: #10c9c3;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+#main_header{
+  background-image: url(../img/home-3.jpg);
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero_heading{
+  font-size: 38px;
+}
+
+.hero_title{
+  padding-top: 150px;
+  margin-left: -50px;
+}
+
+.about-us{
+  padding-top: 130px;
+  padding-bottom: 130px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.about_heading{
+  font-size: 30px;
+}
+
+.about_text{
+  font-size: 16px;
+  font-family: Nunito Sans;
+  padding-top: 20px;
+}
+
+.professional{
+  padding: 150px 0 150px 100px;
+  background-color: #F2F2F2;
+}
+
+.professional_image{
+  background-image: url(../img/services-4.jpg);
+  background-position: 50% 20%;
+  background-size: cover;
+}
+
+.button{
+  margin-top: 40px;
+  padding: 20px 45px;
+  border: 0;
+  background: #10c9c3;
+}
+
+.button a{
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.hero_text{
+  font-family: Nunito Sans;
+  font-size: 18px;
+  margin-top: 34px;
+}
+
+.pro_title{
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.pro_text{
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.ui{
+  margin-bottom: 20px;
+}
+
+.web{
+  margin-bottom: 20px;
+}
+
+.marketing{
+  margin-bottom: 20px;
+}
+
+.stats{
+  padding: 100px 0 100px 0;
+  background: #10C9C3;
+  color: #fff;
+}
+
+div#masonry {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100vw;
+  max-height: 800px;
+  font-size: 0;
+}
+div#masonry img {
+  width: 33.3%;
+  transition: .8s opacity;
+}
+
+div#masonry:hover img { opacity: 0.3; }
+div#masonry:hover img:hover { opacity: 1; }
